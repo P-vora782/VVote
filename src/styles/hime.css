@@ -1,0 +1,191 @@
+/* .App {
+  text-align: center;
+} */
+
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.table {
+  width: 80%;
+  border-collapse: collapse;
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.nav-bar {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar li {
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.button_y {
+  border-radius: 6px;
+  background-color: #2a80a8;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  padding: 12px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.button_y {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_y:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_y:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.button_y:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.button_y_m {
+  background-color: white; /* Green */
+  border: 2px solid #8bc1da;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  width: auto;
+  word-wrap: break-word;
+  color: #000;
+  margin: 4px 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 1rem;
+}
+
+.header-title {
+  margin: 0;
+}
+
+.header-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header-nav-item {
+  margin-right: 1rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.App-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #fff;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 50px;
+  border-radius: 8px;
+}
+
+.card-image-bg {
+  width: 100%;
+  height: 60px;
+  /* overflow: hidden; */
+  border-radius: 8px 8px 0 0;
+}
+
+.card-image {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 16px;
+  text-align: center;
+}
+
+.card-name {
+  font-size: 24px;
+  margin: 0 0 8px;
+}
+
+.card-age {
+  margin: 0 0 8px;
+}
+
+.card-votes {
+  margin: 0 0 16px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
